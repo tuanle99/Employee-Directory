@@ -21,7 +21,7 @@ class Search extends Component {
   render() {
     return (
       <div>
-        <Container style={{ minHeight: "80%" }} fluid={true}>
+        <Container style={{ minHeight: "80%" }}>
           <SearchForm handleBtnClick={this.handleBtnClick} />
           <SearchResults results={this.state.results} />
         </Container>

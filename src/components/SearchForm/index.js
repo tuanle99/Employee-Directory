@@ -26,7 +26,7 @@ function SearchForm(props) {
   return (
     <form className="search">
       <div className="form-group">
-        <label htmlFor="breed">Search By Nationality:</label>
+        <label htmlFor="">Search By Nationality:</label>
         <Container>
           {natList.map((list) => {
             return (

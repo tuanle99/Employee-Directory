@@ -5,6 +5,7 @@ import Wrapper from "./components/Wrapper";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
+import Search from "./pages/Search";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={Home} />
+          <Route exact path="/Search" component={Search} />
         </Wrapper>
         <Footer />
       </div>

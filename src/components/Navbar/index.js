@@ -16,12 +16,12 @@ function Navbar() {
               to="/"
               className={
                 window.location.pathname === "/" ||
-                window.location.pathname === "/about"
+                window.location.pathname === "/home"
                   ? "nav-link active"
                   : "nav-link"
               }
             >
-              About
+              Home
             </Link>
           </li>
 

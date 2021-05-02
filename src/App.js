@@ -13,8 +13,8 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-          <Route exact path="/employee-directory/" component={Home} />
-          <Route exact path="/employee-directory/search" component={Search} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/search" component={Search} />
         </Wrapper>
         <Footer />
       </div>
